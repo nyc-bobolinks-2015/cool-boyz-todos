@@ -4,3 +4,5 @@ require_relative 'config/environment'
 ActiveRecord::Base.logger = nil
 
 # Enter your code below ...
+control = Controller.new
+control.run
