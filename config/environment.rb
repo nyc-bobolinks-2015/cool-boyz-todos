@@ -3,6 +3,8 @@ require "active_record"
 require "rake"
 require "sqlite3"
 require "pathname"
+require_relative "../app/views/view"
+require_relative "../app/controllers/controller"
 
 
 # Identify the root directory for the application

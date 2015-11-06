@@ -4,7 +4,7 @@ class View
 		gets.chomp
 	end
 
-	def display_string(string)
+	def display_s(string)
 		puts string
 	end
 
